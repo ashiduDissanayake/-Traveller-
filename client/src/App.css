@@ -1,0 +1,22 @@
+.log-in {
+    background-color: #0ac000; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    margin-top: 100px;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    font-size: 25px; /* Adjust font size as needed */
+    font-family: 'Montserrat', sans-serif; /* Stylish font */
+    cursor: pointer; /* Add pointer cursor */
+    transition: background-color 0.3s ease; /* Add smooth transition for hover effect */
+  }
+  
+  /* Hover effect */
+  .log-in:hover {
+    background-color: #0ac000;
+    filter: opacity(0.8);
+  }
+
+  
+
+

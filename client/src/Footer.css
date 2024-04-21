@@ -1,0 +1,42 @@
+.container {
+    text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure full height */
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+
+
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+
+}
+
+.drawer-spacer {
+  flex: 0 0 200px ; /* Set the width of the drawer */
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+.footer {
+    width: 100%;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 30px 0 0 0;
+    text-align: center;
+  }
+
+  .drawer-spacer2 {
+
+        flex: 0 0 200px; /* Set the width of the drawer */
+        height: 100%; /* Set the height of the drawer to 100% */
+
+  }
