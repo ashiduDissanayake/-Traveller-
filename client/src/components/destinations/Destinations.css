@@ -1,0 +1,50 @@
+.container {
+    text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure full height */
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+}
+
+.drawer-spacer {
+  flex: 0 0 200px ; /* Set the width of the drawer */
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .wallpaper {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  .map-button {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed to position the button closer to the bottom */
+    padding: 10px 20px;
+    background-color: #4ca725;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .map-button:hover {
+    background-color: #253b1a;
+  }
