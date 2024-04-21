@@ -1,0 +1,23 @@
+.container {
+    text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure full height */
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+}
+
+.drawer-spacer {
+  flex: 0 0 200px ; /* Set the width of the drawer */
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+}

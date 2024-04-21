@@ -1,0 +1,22 @@
+.btn-signup {
+  background: linear-gradient(to right, #2ecc71, #27ae60);
+  /* Gradient background in shades of green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  /* Adjust padding as needed */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /* Smooth hover transition */
+  margin-right: 100px;
+}
+
+.btn-signup:hover {
+  background: linear-gradient(to right, #2c9c53, #00923d);
+  /* Brighter shade of green on hover */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Add subtle shadow on hover */
+}

@@ -1,0 +1,47 @@
+/* ImageCard.css */
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+    
+  }
+  
+  .image-card {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    width: 340px; /* Adjust width to accommodate additional content */
+    background-color: rgb(235, 252, 238);
+  }
+  
+  .image {
+    width: 100%; /* Ensure the image takes the full width of the card */
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .title {
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .ratings {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .ratings svg {
+    fill: rgb(255, 170, 0); /* Set the color of the star icons */
+    width: 20px; /* Adjust size of the star icons */
+    height: 20px;
+    margin-right: 2px; /* Add some spacing between the stars */
+  }
+
+  .card-text{
+    margin-bottom: 0;
+  }
+  

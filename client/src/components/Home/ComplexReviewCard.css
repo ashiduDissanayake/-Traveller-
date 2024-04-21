@@ -1,0 +1,78 @@
+/* ComplexReviewCard.css */
+
+.complex-review-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+}
+
+.user-photo {
+  width: 250px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+
+
+.video {
+  position: relative;;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-name {
+  font-weight: bold;
+}
+
+.author-role {
+  color: #888;
+}
+
+.card-body {
+  margin-top: 10px;
+  align-items: flex-start;
+}
+
+.author-details {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-bottom: 10px; /* Add some space below the author details */
+}
+
+.author-logo {
+  width: 50px;
+  margin-right: 10px; /* Add some space to the right of the author logo */
+}
+
+.review-title {
+  font-size: 20px; /* Adjust font size */
+  font-weight: bold; /* Make the title bold */
+  margin-bottom: 10px; /* Add some space below the title */
+  color: white;
+}
+
+.review-text {
+  font-size: 16px; /* Adjust font size */
+  line-height: 1.5; /* Adjust line height for better readability */
+  color: #62d221;
+}
